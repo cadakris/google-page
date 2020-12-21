@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, "sans-serif";
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+/* NAVIGATION BAR */
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding-left: 15px;
+    cursor:pointer;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.nav-section {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-list, .right-list{
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.sign-in-button {
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* LOGO SECTION */
+.logo-section {
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+    height: auto;
+    width: 300px;
+}
+
+form {
+    text-align: center;
+}
+
+#search-bar {
+    background-image: url("https://www.freepnglogos.com/uploads/search-png/search-icon-clip-art-clkerm-vector-clip-art-online-22.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left;
+    background-origin: content-box;
+    padding-left: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 50%;
+    z-index: 1;
+    outline: none;
+}
+
+
+/* BUTTONS */
+.main-buttons {
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+.button-section {
+    text-align: center;
+}
+
+.main-buttons:hover {
+    border-color: #dfe1e5;
+}
+
+/* FOOTER */
+.footer-container {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+}
+.footer-links {
+    text-decoration: none;
+    color: #70757a;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.footer-right-list, .footer-left-list {
+    margin-right: 10px;
+    margin-left: 10px;
+}
